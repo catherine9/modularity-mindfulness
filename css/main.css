@@ -1,18 +1,29 @@
 html {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-family: "Noto Sans Japanese", sans-serif;
   text-align: center;
 }
 
 nav {
+  color: #d89fb0;
+}
+
+nav a:hover {
   color: #b64c6e;
 }
 
+.btn {
+  color: #d89fb0;
+  background-color: #fff;
+  border-color: #d89fb0;
+}
 
-@media only screen and (min-width: 60em) {
+.btn:hover {
+  color: #b64c6e;
+  background-color: #d89fb0;
+  border-color: #b64c6e;
+}
 
-  html {
-
-  }
-
+header {
+  border-bottom: 3px solid #e2e2e2;
 }
