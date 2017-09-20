@@ -12,18 +12,6 @@ nav a:hover {
   color: #860927;
 }
 
-.btn {
-  color: #d89fb0;
-  background-color: #fff;
-  border-color: #d89fb0;
-}
-
-.btn:hover {
-  color: #b64c6e;
-  background-color: #d89fb0;
-  border-color: #b64c6e;
-}
-
 .btn-ghost {
   color: #d89fb0;
   background-color: #fff;
@@ -36,21 +24,13 @@ nav a:hover {
   border-color: #b64c6e;
 }
 
-.btn-light {
-  color: #d89fb0;
-  background-color: #fff;
-  border-color: #d89fb0;
-}
-
-.btn-light:hover {
-  color: #b64c6e;
-  background-color: #d89fb0;
-  border-color: #b64c6e;
-}
-
 .text {
   border-bottom: 3px solid #e2e2e2;
   border-top: 3px solid #e2e2e2;
+}
+
+.font-ja {
+  font-family: "Noto Sans Japanese", sans-serif;
 }
 
 footer {
