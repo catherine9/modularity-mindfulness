@@ -1,11 +1,14 @@
 html {
   font-family: "Noto Sans", sans-serif;
   font-family: "Noto Sans Japanese", sans-serif;
-  text-align: center;
 }
 
 nav {
   color: #d89fb0;
+}
+
+header {
+  text-align: center;
 }
 
 nav a:hover {
@@ -34,7 +37,7 @@ nav a:hover {
 }
 
 footer {
-  border-bottom: 3px solid #e2e2e2;
+  border-top: 3px solid #e2e2e2;
 }
 
 @media only screen and (min-width: 60em) {
