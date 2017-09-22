@@ -40,10 +40,22 @@ footer {
   border-top: 3px solid #e2e2e2;
 }
 
+@media only screen and (min-width: 25em) {
+
+  .logo {
+    text-align: center;
+  }
+
+}
+
 @media only screen and (min-width: 60em) {
 
   nav {
     text-align: right;
+  }
+
+  .logo {
+    text-align: left;
   }
 
 }
